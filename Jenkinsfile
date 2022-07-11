@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                echo "bye bye"
+                bat "systeminfo"
             }
         }
     }
