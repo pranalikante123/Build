@@ -18,7 +18,7 @@ pipeline {
         }
         stage('check') {
             steps {
-                echo "testing prr build"
+                echo "testing  build"
             }
         }
     }
