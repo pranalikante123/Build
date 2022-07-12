@@ -18,7 +18,7 @@ pipeline {
         }
         stage('check') {
             steps {
-                echo "testing build"
+                echo "testing  build"
             }
         }
     }
