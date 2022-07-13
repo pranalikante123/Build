@@ -16,10 +16,5 @@ pipeline {
                 echo "testing pr build"
             }
         }
-        stage('check') {
-            steps {
-                echo "testing  build"
-            }
-        }
     }
 }
