@@ -14,7 +14,6 @@ pipeline {
         stage('deploy') {
             steps {
                 echo "testing pr build"
-                echo "testingg"
             }
         }
     }
