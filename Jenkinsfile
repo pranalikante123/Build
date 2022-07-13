@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh "systeminfo"
+                bat "systeminfo"
             }
         }
         stage('deploy') {
