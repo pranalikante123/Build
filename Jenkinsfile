@@ -11,7 +11,7 @@ pipeline {
                 bat "systeminfo"
             }
         }
-        stage('deploy') {
+        stage('compile') {
             steps {
                 echo "testing pr build"
             }
