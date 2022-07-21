@@ -21,10 +21,5 @@ pipeline {
                 echo " build"
             }
         }
-        stage('compile') {
-            steps {
-                echo "bye bye!"
-            }
-        }
     }
 }
