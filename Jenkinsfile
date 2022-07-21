@@ -8,7 +8,17 @@ pipeline {
         }
         stage('test') {
             steps {
-                echo "bye bye!"
+                bat "systeminfo"
+            }
+        }
+        stage('compile') {
+            steps {
+                echo "testing pr build"
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo " build"
             }
         }
         stage('compile') {
