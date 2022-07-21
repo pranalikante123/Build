@@ -11,5 +11,10 @@ pipeline {
                 echo "bye bye!"
             }
         }
+        stage('compile') {
+            steps {
+                echo "bye bye!"
+            }
+        }
     }
 }
